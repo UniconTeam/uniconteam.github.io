@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Suleiman700/ReactJS-Fall-Guys-Landing-Page/precache-manifest.acad149b6522459584ec80cde5121c45.js"
+  "/kotleni/ShooterWeb/precache-manifest.217679ab5037cb67b7707473646f7aa7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Suleiman700/ReactJS-Fall-Guys-Landing-Page/index.html", {
+workbox.routing.registerNavigationRoute("/kotleni/ShooterWeb/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
